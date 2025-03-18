@@ -53,6 +53,8 @@ nav ul li a:hover, nav ul li a.active {
     width: 100%;
     overflow: hidden;
     padding-top: 56.25%; /* 16:9 Aspect Ratio */
+    height: 100%;
+    
 }
 
 .iframe-container iframe {
@@ -83,6 +85,8 @@ footer {
     }
 
     .iframe-container {
-        padding-top: 75%; /* Adjust aspect ratio for smaller screens */
+        padding-top: 75%;
+        height:100%;
+        /* Adjust aspect ratio for smaller screens */
     }
 }
